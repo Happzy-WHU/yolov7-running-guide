@@ -526,7 +526,7 @@ def train(hyp, opt, device, tb_writer=None):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', type=str, default='/data1/zhongyuan_peng/models/yolov7/load_pre.pt', help='initial weights path')
+    parser.add_argument('--weights', type=str, default='weights/load_pre.pt', help='initial weights path')
     parser.add_argument('--cfg', type=str, default='cfg/training/yolov7-tiny.yaml', help='model.yaml path')
     parser.add_argument('--data', type=str, default='data/VisDrone.yaml', help='data.yaml path')
     parser.add_argument('--hyp', type=str, default='data/hyp.scratch.p5.yaml', help='hyperparameters path')
