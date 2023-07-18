@@ -1,0 +1,1 @@
+python export.py --grid --end2end --simplify --weights runs/train/exp10/weights/best.pt --img-size 1440 1440 --max-wh 1440
